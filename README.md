@@ -1,4 +1,4 @@
-# Test Agent's performance
+# Test the Agent's performance
 
 ## Compile program:
 - Clone/download the AI-Sudoku-Solver repository
@@ -11,7 +11,7 @@
 ## Generate custom boards (optional):
 Run: python3 board_generator.py \<File Prefix\> \<Number of boards\> \<P\> \<Q\> \<M\><br>
 Where:<br>
-  P = the number of rows in each block (Norvig's box is a synonym for block as used here)<br>
+  P = the number of rows in each block<br>
   Q = the number of columns in each block<br>
   M = the number of filled-in values at the start<br>
 
