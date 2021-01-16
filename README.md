@@ -11,19 +11,18 @@
 ## Generate custom boards (optional):
 Run: python3 board_generator.py \<File Prefix\> \<Number of boards\> \<P\> \<Q\> \<M\><br>
 Where:<br>
-	N = the length of one side of the NxN grid, also the number of distinct tokens<br>
-	P = the number of rows in each block (Norvig's box is a synonym for block as used here)<br>
-	Q = the number of columns in each block<br>
-	M = the number of filled-in values at the start<br>
+-- P = the number of rows in each block (Norvig's box is a synonym for block as used here)<br>
+-- Q = the number of columns in each block<br>
+-- M = the number of filled-in values at the start<br>
 
 ## Run program with token(s):
 -  Token order doesn't matter
 - The following tokens are valid:
-	MRV: Minimum Remaining Value Variable Selector<br>
-	MAD: MRV and DEG tie breaker<br>
-	LCV: Least Constraining Value Value Selector<br>
-	FC: Forward Checking Constraint Propagation<br>
-	NOR: Norvig's Sudoku Constraint Propagation<br>
+-- MRV: Minimum Remaining Value Variable Selector<br>
+-- MAD: MRV and DEG tie breaker<br>
+-- LCV: Least Constraining Value Value Selector<br>
+-- FC: Forward Checking Constraint Propagation<br>
+-- NOR: Norvig's Sudoku Constraint Propagation<br>
 - Examples:
-	python3 bin/Main.pyc MRV<br>
-	python3 bin/Main.pyc MRV LCV FC path/to/board/files<br>
+-- python3 bin/Main.pyc MRV<br>
+-- python3 bin/Main.pyc MRV LCV FC path/to/board/files<br>
