@@ -16,13 +16,13 @@ Where:<br>
   M = the number of filled-in values at the start<br>
 
 ## Run program with token(s):
--  Token order doesn't matter
-- The following tokens are valid:
+-  Token order doesn't matter<br>
+- The following tokens are valid:<br>
     MRV: Minimum Remaining Value Variable Selector<br>
     MAD: MRV and DEG tie breaker<br>
     LCV: Least Constraining Value Value Selector<br>
     FC: Forward Checking Constraint Propagation<br>
     NOR: Norvig's Sudoku Constraint Propagation<br>
-- Examples:
+- Examples:<br>
     python3 bin/Main.pyc MRV<br>
     python3 bin/Main.pyc MRV LCV FC path/to/board/files<br>
