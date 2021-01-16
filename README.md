@@ -8,7 +8,7 @@
 ## Run program: python3 bin/Main.pyc
 
 ## Generate custom boards (optional):
-Run: python3 board_generator.py <File Prefix> <Number of boards> <P> <Q> <M>
+Run: python3 board_generator.py \<File Prefix\> \<Number of boards\> \<P\> \<Q\> \<M\>
 Where:
 	N = the length of one side of the NxN grid, also the number of distinct tokens
 	P = the number of rows in each block (Norvig's box is a synonym for block as used here)
